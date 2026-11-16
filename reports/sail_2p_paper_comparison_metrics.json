@@ -1,0 +1,220 @@
+{
+  "verified_input_and_model_hashes": true,
+  "subsets": {
+    "all": {
+      "flights": 72,
+      "samples": 174726,
+      "positive_samples": 92168,
+      "detectors": {
+        "xgboost": {
+          "tn": 82545,
+          "fp": 13,
+          "fn": 13,
+          "tp": 92155,
+          "accuracy": 0.9998511955862321,
+          "recall": 0.9998589532158667,
+          "precision": 0.9998589532158667,
+          "f1": 0.9998589532158667,
+          "false_alarm_fraction": 0.00015746505487051527,
+          "attacks": 44,
+          "attacks_detected": 44,
+          "mean_delay_s": 0.03554545454545463,
+          "median_delay_s": 0.03000000000000025,
+          "min_delay_s": 0.0,
+          "max_delay_s": 0.12399999999999967,
+          "p95_delay_s": 0.08960000000000054
+        },
+        "cusum_pulse": {
+          "tn": 82556,
+          "fp": 2,
+          "fn": 162,
+          "tp": 92006,
+          "accuracy": 0.9990613875439259,
+          "recall": 0.9982423400746463,
+          "precision": 0.99997826275976,
+          "f1": 0.9991095473894536,
+          "false_alarm_fraction": 2.422539305700235e-05,
+          "attacks": 44,
+          "attacks_detected": 44,
+          "mean_delay_s": 0.08618181818181823,
+          "median_delay_s": 0.08200000000000007,
+          "min_delay_s": 0.043999999999999595,
+          "max_delay_s": 0.17600000000000016,
+          "p95_delay_s": 0.14340000000000006
+        }
+      }
+    },
+    "curved": {
+      "flights": 22,
+      "samples": 96835,
+      "positive_samples": 63875,
+      "detectors": {
+        "xgboost": {
+          "tn": 32958,
+          "fp": 2,
+          "fn": 5,
+          "tp": 63870,
+          "accuracy": 0.9999277120875717,
+          "recall": 0.9999217221135029,
+          "precision": 0.9999686873747495,
+          "f1": 0.9999452041926621,
+          "false_alarm_fraction": 6.0679611650485434e-05,
+          "attacks": 15,
+          "attacks_detected": 15,
+          "mean_delay_s": 0.03973333333333328,
+          "median_delay_s": 0.043999999999999595,
+          "min_delay_s": 0.0,
+          "max_delay_s": 0.09200000000000053,
+          "p95_delay_s": 0.0808000000000005
+        },
+        "cusum_pulse": {
+          "tn": 32960,
+          "fp": 0,
+          "fn": 33,
+          "tp": 63842,
+          "accuracy": 0.9996592141271234,
+          "recall": 0.9994833659491194,
+          "precision": 1.0,
+          "f1": 0.9997416162296328,
+          "false_alarm_fraction": 0.0,
+          "attacks": 15,
+          "attacks_detected": 15,
+          "mean_delay_s": 0.08693333333333324,
+          "median_delay_s": 0.08800000000000008,
+          "min_delay_s": 0.043999999999999595,
+          "max_delay_s": 0.14400000000000013,
+          "p95_delay_s": 0.1328000000000001
+        }
+      }
+    },
+    "random": {
+      "flights": 28,
+      "samples": 59911,
+      "positive_samples": 16858,
+      "detectors": {
+        "xgboost": {
+          "tn": 43044,
+          "fp": 9,
+          "fn": 6,
+          "tp": 16852,
+          "accuracy": 0.9997496286157801,
+          "recall": 0.9996440858939376,
+          "precision": 0.9994662238301406,
+          "f1": 0.999555146949791,
+          "false_alarm_fraction": 0.00020904466587694237,
+          "attacks": 14,
+          "attacks_detected": 14,
+          "mean_delay_s": 0.035142857142857364,
+          "median_delay_s": 0.026000000000000467,
+          "min_delay_s": 0.0039999999999995595,
+          "max_delay_s": 0.10400000000000009,
+          "p95_delay_s": 0.08060000000000035
+        },
+        "cusum_pulse": {
+          "tn": 43051,
+          "fp": 2,
+          "fn": 96,
+          "tp": 16762,
+          "accuracy": 0.9983642402897631,
+          "recall": 0.9943053743030016,
+          "precision": 0.9998806967310905,
+          "f1": 0.9970852418059604,
+          "false_alarm_fraction": 4.645437019487608e-05,
+          "attacks": 14,
+          "attacks_detected": 14,
+          "mean_delay_s": 0.0814285714285716,
+          "median_delay_s": 0.07200000000000051,
+          "min_delay_s": 0.04800000000000004,
+          "max_delay_s": 0.14800000000000058,
+          "p95_delay_s": 0.12720000000000112
+        }
+      }
+    },
+    "curved_and_random": {
+      "flights": 50,
+      "samples": 156746,
+      "positive_samples": 80733,
+      "detectors": {
+        "xgboost": {
+          "tn": 76002,
+          "fp": 11,
+          "fn": 11,
+          "tp": 80722,
+          "accuracy": 0.999859645541194,
+          "recall": 0.9998637484052371,
+          "precision": 0.9998637484052371,
+          "f1": 0.9998637484052371,
+          "false_alarm_fraction": 0.00014471208872166602,
+          "attacks": 29,
+          "attacks_detected": 29,
+          "mean_delay_s": 0.03751724137931042,
+          "median_delay_s": 0.03599999999999959,
+          "min_delay_s": 0.0,
+          "max_delay_s": 0.10400000000000009,
+          "p95_delay_s": 0.08560000000000048
+        },
+        "cusum_pulse": {
+          "tn": 76011,
+          "fp": 2,
+          "fn": 129,
+          "tp": 80604,
+          "accuracy": 0.9991642529952918,
+          "recall": 0.9984021403886887,
+          "precision": 0.9999751879512692,
+          "f1": 0.9991880450480045,
+          "false_alarm_fraction": 2.631128885848473e-05,
+          "attacks": 29,
+          "attacks_detected": 29,
+          "mean_delay_s": 0.08427586206896555,
+          "median_delay_s": 0.08000000000000007,
+          "min_delay_s": 0.043999999999999595,
+          "max_delay_s": 0.14800000000000058,
+          "p95_delay_s": 0.13760000000000008
+        }
+      }
+    },
+    "straight": {
+      "flights": 22,
+      "samples": 17980,
+      "positive_samples": 11435,
+      "detectors": {
+        "xgboost": {
+          "tn": 6543,
+          "fp": 2,
+          "fn": 2,
+          "tp": 11433,
+          "accuracy": 0.9997775305895439,
+          "recall": 0.99982509838216,
+          "precision": 0.99982509838216,
+          "f1": 0.99982509838216,
+          "false_alarm_fraction": 0.00030557677616501144,
+          "attacks": 15,
+          "attacks_detected": 15,
+          "mean_delay_s": 0.03173333333333342,
+          "median_delay_s": 0.02800000000000047,
+          "min_delay_s": 0.0,
+          "max_delay_s": 0.12399999999999967,
+          "p95_delay_s": 0.06799999999999984
+        },
+        "cusum_pulse": {
+          "tn": 6545,
+          "fp": 0,
+          "fn": 33,
+          "tp": 11402,
+          "accuracy": 0.9981646273637375,
+          "recall": 0.9971141233056405,
+          "precision": 1.0,
+          "f1": 0.9985549765731051,
+          "false_alarm_fraction": 0.0,
+          "attacks": 15,
+          "attacks_detected": 15,
+          "mean_delay_s": 0.08986666666666675,
+          "median_delay_s": 0.08400000000000052,
+          "min_delay_s": 0.04400000000000004,
+          "max_delay_s": 0.17600000000000016,
+          "p95_delay_s": 0.1507999999999998
+        }
+      }
+    }
+  }
+}

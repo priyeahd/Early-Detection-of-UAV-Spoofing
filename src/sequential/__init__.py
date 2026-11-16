@@ -1,0 +1,4 @@
+"""
+Sequential detection models package.
+"""
+

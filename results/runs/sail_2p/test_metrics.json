@@ -1,0 +1,42 @@
+{
+  "xgboost": {
+    "tn": 82545,
+    "fp": 13,
+    "fn": 13,
+    "tp": 92155,
+    "accuracy": 0.9998511955862321,
+    "recall": 0.9998589532158667,
+    "precision": 0.9998589532158667,
+    "f1": 0.9998589532158667,
+    "false_alarm_fraction": 0.00015746505487051527,
+    "attacks": 44,
+    "attacks_alerted": 44,
+    "attacks_with_new_alert": 40,
+    "attacks_already_alerting": 6,
+    "normal_flights": 28,
+    "normal_flights_with_alarm": 0,
+    "off_alarm_starts": 7,
+    "median_delay_s_detected": 0.03000000000000025,
+    "median_delay_s_new_alert_detected": 0.03000000000000025
+  },
+  "cusum_pulse": {
+    "tn": 82556,
+    "fp": 2,
+    "fn": 162,
+    "tp": 92006,
+    "accuracy": 0.9990613875439259,
+    "recall": 0.9982423400746463,
+    "precision": 0.99997826275976,
+    "f1": 0.9991095473894536,
+    "false_alarm_fraction": 2.422539305700235e-05,
+    "attacks": 44,
+    "attacks_alerted": 44,
+    "attacks_with_new_alert": 44,
+    "attacks_already_alerting": 0,
+    "normal_flights": 28,
+    "normal_flights_with_alarm": 0,
+    "off_alarm_starts": 2,
+    "median_delay_s_detected": 0.08200000000000007,
+    "median_delay_s_new_alert_detected": 0.08200000000000007
+  }
+}

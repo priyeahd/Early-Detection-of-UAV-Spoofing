@@ -1,0 +1,52 @@
+# Publish only the XGBoost/CUSUM code, supporting files, and SAIL_2P results.
+# New top-level files and directories are ignored unless allowed below.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+
+!/src/
+/src/*
+!/src/__init__.py
+!/src/baselines/
+/src/baselines/*
+!/src/baselines/__init__.py
+!/src/baselines/xgboost_baseline.py
+!/src/sequential/
+/src/sequential/*
+!/src/sequential/__init__.py
+!/src/sequential/cusum.py
+
+!/configs/
+/configs/*
+!/configs/xgboost.json
+
+# Experiment runners and their shared preparation/evaluation helpers.
+!/scripts/
+/scripts/*
+!/scripts/*.py
+!/tests/
+/tests/*
+!/tests/*.py
+
+# Keep only SAIL_2P run outputs (including the saved model).
+!/results/
+/results/*
+!/results/runs/
+/results/runs/*
+!/results/runs/sail_2p/
+
+# Keep only the SAIL_2P write-ups and comparison metrics.
+!/reports/
+/reports/*
+!/reports/sail_2p_manual.md
+!/reports/sail_2p_paper_comparison.md
+!/reports/sail_2p_paper_comparison_metrics.json
+
+# Ignore caches and local environment files even inside allowed directories.
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.env
+.env.*
