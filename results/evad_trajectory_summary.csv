@@ -1,0 +1,7 @@
+trajectory,condition,flights,detected,false_alarm_episodes,median_delay_s
+Curved,Attacked,12,12,0,2.6
+Curved,Normal,6,0,0,
+Random,Attacked,12,12,1,2.6
+Random,Normal,12,0,0,
+Straight,Attacked,12,12,0,2.6
+Straight,Normal,6,0,0,
