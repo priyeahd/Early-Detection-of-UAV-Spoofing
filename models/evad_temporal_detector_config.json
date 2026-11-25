@@ -1,0 +1,11 @@
+{
+    "model": "relative_displacement_lstm",
+    "feature": "mean_position_error",
+    "threshold": 0.175784,
+    "consecutive_alerts": 3,
+    "input_steps": 20,
+    "output_steps": 5,
+    "sampling_interval_seconds": 0.1,
+    "threshold_selection": "validation_normal_99.9_percentile",
+    "evaluation_status": "validation_selected_test_not_evaluated"
+}
