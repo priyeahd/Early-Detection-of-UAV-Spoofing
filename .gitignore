@@ -1,0 +1,29 @@
+# Datasets
+data/
+
+# Trained models
+models/
+*.pt
+*.pth
+*.pkl
+*.h5
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Sensitive information
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
